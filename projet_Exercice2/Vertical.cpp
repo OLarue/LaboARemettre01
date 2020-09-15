@@ -1,10 +1,10 @@
-// but:  Un programme qui prend comme entrée un nombre de cinq chiffres. Le programme vérifie qu'il y a bien
-// 5 chiffres dans le nombre.Puis il affiche le nombre verticalement, le premier chiffre sur la première ligne, le
-// deuxième chiffre sur la deuxième ligne, ainsi de suite
+// but:  Un programme qui prend comme entrÃ©e un nombre de cinq chiffres. Le programme vÃ©rifie qu'il y a bien
+// 5 chiffres dans le nombre.Puis il affiche le nombre verticalement, le premier chiffre sur la premiÃ¨re ligne, le
+// deuxiÃ¨me chiffre sur la deuxiÃ¨me ligne, ainsi de suite
 // Auteur: Olivier Larue 
 // Date: 14 septembre 2020
 
-
+//
 
 #include <iostream>
 
@@ -13,8 +13,8 @@ int main()
 	setlocale(LC_ALL, ""); //pour convertir les accents dans la console
 
 	int nombre;
-	// On demande à l'utilisateur d'entrer un nombre à 5 chiffres.
-	std::cout << "veuillez entrer un nombre à 5 chiffres. " << ".";
+	// On demande Ã  l'utilisateur d'entrer un nombre Ã  5 chiffres.
+	std::cout << "veuillez entrer un nombre Ã  5 chiffres. " << ".";
 	// le programme lit le nombre entrer par l'utilisateur.
 	std::cin >> nombre;
 
@@ -39,4 +39,4 @@ int main()
 }
 
 
-// je n'ai pas réussir à trouver les autres équations pour aligner les chiffres verticalement :( mais au moins mon premier programme fonctionne bien! =D  
+// je n'ai pas rÃ©ussir Ã  trouver les autres Ã©quations pour aligner les chiffres verticalement :( mais au moins mon premier programme fonctionne bien! =D  
